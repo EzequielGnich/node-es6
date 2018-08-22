@@ -5,7 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/EzequielGnich/node-es6.git",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon -w src --exec \"babel-node src --presets env\""
   },
   "keywords": [],
   "author": "",
